@@ -1,10 +1,7 @@
 package com.itheima.ssm.dao;
 
 import com.itheima.ssm.domain.UserInfo;
-import org.apache.ibatis.annotations.Many;
-import org.apache.ibatis.annotations.Result;
-import org.apache.ibatis.annotations.Results;
-import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.*;
 
 import java.util.List;
 
@@ -24,4 +21,7 @@ public interface IUserDao {
 
     @Select("select*from users")
     List<UserInfo> findAll() throws Exception;
+
+   @Insert("insert into users (email,username,password,phoneNum,status)values(#{email},#{username},#{password},#{phoneNum},#{status})")
+    void save(UserInfo userInfo)throws Exception;
 }
