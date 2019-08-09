@@ -31,4 +31,14 @@ public class UserController {
         userService.save(userInfo);
         return "redirect:findAll.do";
     }
+
+    //查找制定ID的用户
+    @RequestMapping("/findById.do")
+    public ModelAndView findById(String id)throws Exception{
+        ModelAndView mv = new ModelAndView();
+        UserInfo userInfo = userService.findById(id);
+        mv.addObject("user",userInfo);
+        mv.setViewName("user-show");
+        return mv;
+    }
 }
