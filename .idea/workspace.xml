@@ -1,177 +1,196 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b00fc83-5472-4d13-9378-aae34d3dbd0c" name="Default" comment="day04 用户详情效果展示已经完成， 未展示的需要修改前段">
-      <change afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/pages/user-show1.jsp" afterDir="false" />
+    <list default="true" id="7b00fc83-5472-4d13-9378-aae34d3dbd0c" name="Default" comment="day04 用户详情页面展示已经完成， 第8个视频结束">
+      <change afterPath="$PROJECT_DIR$/heima_ssm_service/src/main/java/com/itheima/ssm/service/IRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima_ssm_service/src/main/java/com/itheima/ssm/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/java/com/itheima/ssm/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/pages/role-list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/java/com/itheima/ssm/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/java/com/itheima/ssm/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/pages/user-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/pages/user-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/pages/user-show.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/pages/user-show.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/adminLTE/css/AdminLTE.css" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/adminLTE/css/AdminLTE.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/adminLTE/css/AdminLTE.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/adminLTE/css/AdminLTE.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-without-plugins.css" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-without-plugins.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-without-plugins.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-without-plugins.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/bootstrap/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/bootstrap/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/bootstrap/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/bootstrap/js/npm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/plugins/wsc/dialogs/wsc.js" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/plugins/wsc/dialogs/wsc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/ajax.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/ajax.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/api.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/api.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/appendto.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/appendto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/datafiltering.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/datafiltering.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/dialog/dialog.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/dialog/dialog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/divreplace.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/divreplace.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/enterkey/enterkey.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/enterkey/enterkey.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/htmlwriter/outputforflash.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/htmlwriter/outputforflash.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/htmlwriter/outputhtml.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/htmlwriter/outputhtml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/inlineall.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/inlineall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/inlinebycode.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/inlinebycode.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/inlinetextarea.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/inlinetextarea.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/jquery.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/jquery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/magicline/magicline.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/magicline/magicline.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/readonly.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/readonly.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/replacebyclass.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/replacebyclass.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/replacebycode.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/replacebycode.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/tabindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/tabindex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/toolbar/toolbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/toolbar/toolbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/uicolor.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/uicolor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/uilanguages.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/uilanguages.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/wysiwygarea/fullpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/wysiwygarea/fullpage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/xhtmlstyle.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/old/xhtmlstyle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/toolbarconfigurator/css/fontello.css" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/toolbarconfigurator/css/fontello.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/toolbarconfigurator/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/toolbarconfigurator/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/javascript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.js" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/AutoFill/css/dataTables.autoFill.css" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/AutoFill/css/dataTables.autoFill.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/AutoFill/css/dataTables.autoFill.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/AutoFill/css/dataTables.autoFill.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/AutoFill/examples/columns.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/AutoFill/examples/columns.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/AutoFill/examples/complete-callback.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/AutoFill/examples/complete-callback.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/AutoFill/examples/fill-both.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/AutoFill/examples/fill-both.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/AutoFill/examples/fill-horizontal.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/AutoFill/examples/fill-horizontal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/AutoFill/examples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/AutoFill/examples/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/AutoFill/examples/scrolling.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/AutoFill/examples/scrolling.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/AutoFill/examples/simple.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/AutoFill/examples/simple.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/AutoFill/examples/step-callback.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/AutoFill/examples/step-callback.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/alt_insert.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/alt_insert.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/col_filter.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/col_filter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/colvis.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/colvis.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/fixedcolumns.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/fixedcolumns.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/fixedheader.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/fixedheader.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/jqueryui.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/jqueryui.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/new_init.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/new_init.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/predefined.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/predefined.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/realtime.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/realtime.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/reset.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/reset.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/scrolling.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/scrolling.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/server_side.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/server_side.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/simple.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/simple.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/state_save.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/state_save.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColVis/examples/button_order.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColVis/examples/button_order.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColVis/examples/exclude_columns.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColVis/examples/exclude_columns.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColVis/examples/group_columns.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColVis/examples/group_columns.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColVis/examples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColVis/examples/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColVis/examples/jqueryui.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColVis/examples/jqueryui.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColVis/examples/mouseover.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColVis/examples/mouseover.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColVis/examples/new_init.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColVis/examples/new_init.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColVis/examples/restore.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColVis/examples/restore.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColVis/examples/simple.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColVis/examples/simple.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColVis/examples/text.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColVis/examples/text.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColVis/examples/title_callback.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColVis/examples/title_callback.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColVis/examples/two_tables.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColVis/examples/two_tables.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColVis/examples/two_tables_identical.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/ColVis/examples/two_tables_identical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/bootstrap.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/bootstrap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/col_filter.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/col_filter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/colvis.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/colvis.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/css_size.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/css_size.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/index_column.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/index_column.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/left_right_columns.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/left_right_columns.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/right_column.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/right_column.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/rowspan.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/rowspan.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/server-side-processing.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/server-side-processing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/simple.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/simple.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/size_fixed.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/size_fixed.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/size_fluid.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/size_fluid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/two_columns.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/two_columns.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedHeader/examples/header_footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedHeader/examples/header_footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedHeader/examples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedHeader/examples/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedHeader/examples/simple.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedHeader/examples/simple.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedHeader/examples/top_left_right.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedHeader/examples/top_left_right.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedHeader/examples/two_tables.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedHeader/examples/two_tables.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedHeader/examples/zIndexes.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/FixedHeader/examples/zIndexes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/KeyTable/examples/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/KeyTable/examples/events.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/KeyTable/examples/html.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/KeyTable/examples/html.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/KeyTable/examples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/KeyTable/examples/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/KeyTable/examples/scrolling.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/KeyTable/examples/scrolling.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/KeyTable/examples/simple.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/KeyTable/examples/simple.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/child-rows/column-control.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/child-rows/column-control.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/child-rows/custom-renderer.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/child-rows/custom-renderer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/child-rows/disable-child-rows.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/child-rows/disable-child-rows.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/child-rows/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/child-rows/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/child-rows/right-column.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/child-rows/right-column.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/child-rows/whole-row-control.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/child-rows/whole-row-control.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/display-control/auto.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/display-control/auto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/display-control/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/display-control/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/display-control/complexHeader.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/display-control/complexHeader.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/display-control/fixedHeader.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/display-control/fixedHeader.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/display-control/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/display-control/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/display-control/init-classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/display-control/init-classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/initialisation/ajax.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/initialisation/ajax.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/initialisation/className.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/initialisation/className.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/initialisation/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/initialisation/default.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/initialisation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/initialisation/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/initialisation/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/initialisation/new.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/initialisation/option.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/initialisation/option.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/styling/bootstrap.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/styling/bootstrap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/styling/compact.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/styling/compact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/styling/foundation.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/styling/foundation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/styling/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/styling/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/styling/scrolling.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Responsive/examples/styling/scrolling.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Scroller/css/dataTables.scroller.css" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Scroller/css/dataTables.scroller.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Scroller/css/dataTables.scroller.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Scroller/css/dataTables.scroller.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Scroller/examples/api_scrolling.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Scroller/examples/api_scrolling.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Scroller/examples/data/ssp.php" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Scroller/examples/data/ssp.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Scroller/examples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Scroller/examples/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Scroller/examples/large_js_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Scroller/examples/large_js_source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Scroller/examples/server-side_processing.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Scroller/examples/server-side_processing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Scroller/examples/simple.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Scroller/examples/simple.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Scroller/examples/state_saving.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/Scroller/examples/state_saving.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.css" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/examples/ajax.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/examples/ajax.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/examples/alter_buttons.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/examples/alter_buttons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/examples/bootstrap.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/examples/bootstrap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/examples/button_text.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/examples/button_text.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/examples/collection.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/examples/collection.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/examples/defaults.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/examples/defaults.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/examples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/examples/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/examples/jqueryui.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/examples/jqueryui.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/examples/multi_instance.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/examples/multi_instance.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/examples/multiple_tables.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/examples/multiple_tables.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/examples/new_init.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/examples/new_init.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/examples/pdf_message.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/examples/pdf_message.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/examples/plug-in.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/examples/plug-in.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/examples/select_column.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/examples/select_column.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/examples/select_multi.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/examples/select_multi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/examples/select_os.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/examples/select_os.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/examples/select_single.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/examples/select_single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/examples/simple.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/examples/simple.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/examples/swf_path.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/examples/swf_path.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.js" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/font-awesome/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/font-awesome/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ionicons/css/ionicons.css" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ionicons/css/ionicons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ionicons/css/ionicons.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/ionicons/css/ionicons.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/select2/select2.full.js" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/select2/select2.full.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/select2/select2.full.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/select2/select2.full.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/select2/select2.js" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/select2/select2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/select2/select2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/plugins/select2/select2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_dao/src/main/java/com/itheima/ssm/dao/IRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_dao/src/main/java/com/itheima/ssm/dao/IRoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_dao/target/classes/com/itheima/ssm/dao/IRoleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_dao/target/classes/com/itheima/ssm/dao/IRoleDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_dao/target/heima_ssm_dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_dao/target/heima_ssm_dao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_dao/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_dao/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_domain/target/heima_ssm_domain-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_domain/target/heima_ssm_domain-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_domain/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_domain/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_service/target/heima_ssm_service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_service/target/heima_ssm_service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_utils/target/heima_ssm_utils-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_utils/target/heima_ssm_utils-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_utils/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_utils/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web.war" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/WEB-INF/lib/heima_ssm_dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/WEB-INF/lib/heima_ssm_dao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/WEB-INF/lib/heima_ssm_domain-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/WEB-INF/lib/heima_ssm_domain-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/WEB-INF/lib/heima_ssm_service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/WEB-INF/lib/heima_ssm_service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/WEB-INF/lib/heima_ssm_utils-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/WEB-INF/lib/heima_ssm_utils-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/adminLTE/css/AdminLTE.css" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/adminLTE/css/AdminLTE.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/adminLTE/css/AdminLTE.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/adminLTE/css/AdminLTE.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/adminLTE/css/alt/AdminLTE-without-plugins.css" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/adminLTE/css/alt/AdminLTE-without-plugins.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/adminLTE/css/alt/AdminLTE-without-plugins.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/adminLTE/css/alt/AdminLTE-without-plugins.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/bootstrap/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/bootstrap/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/bootstrap/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/bootstrap/js/npm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/plugins/wsc/dialogs/wsc.js" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/plugins/wsc/dialogs/wsc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/ajax.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/ajax.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/api.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/api.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/appendto.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/appendto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/datafiltering.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/datafiltering.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/dialog/dialog.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/dialog/dialog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/divreplace.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/divreplace.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/enterkey/enterkey.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/enterkey/enterkey.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/htmlwriter/outputforflash.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/htmlwriter/outputforflash.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/htmlwriter/outputhtml.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/htmlwriter/outputhtml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/inlineall.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/inlineall.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/inlinebycode.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/inlinebycode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/inlinetextarea.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/inlinetextarea.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/jquery.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/jquery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/magicline/magicline.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/magicline/magicline.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/readonly.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/readonly.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/replacebyclass.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/replacebyclass.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/replacebycode.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/replacebycode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/tabindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/tabindex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/toolbar/toolbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/toolbar/toolbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/uicolor.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/uicolor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/uilanguages.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/uilanguages.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/wysiwygarea/fullpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/wysiwygarea/fullpage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/xhtmlstyle.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/old/xhtmlstyle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/toolbarconfigurator/css/fontello.css" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/toolbarconfigurator/css/fontello.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/toolbarconfigurator/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/toolbarconfigurator/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/javascript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.js" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/AutoFill/css/dataTables.autoFill.css" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/AutoFill/css/dataTables.autoFill.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/AutoFill/css/dataTables.autoFill.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/AutoFill/css/dataTables.autoFill.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/AutoFill/examples/columns.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/AutoFill/examples/columns.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/AutoFill/examples/complete-callback.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/AutoFill/examples/complete-callback.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/AutoFill/examples/fill-both.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/AutoFill/examples/fill-both.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/AutoFill/examples/fill-horizontal.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/AutoFill/examples/fill-horizontal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/AutoFill/examples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/AutoFill/examples/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/AutoFill/examples/scrolling.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/AutoFill/examples/scrolling.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/AutoFill/examples/simple.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/AutoFill/examples/simple.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/AutoFill/examples/step-callback.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/AutoFill/examples/step-callback.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColReorder/examples/alt_insert.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColReorder/examples/alt_insert.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColReorder/examples/col_filter.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColReorder/examples/col_filter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColReorder/examples/colvis.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColReorder/examples/colvis.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColReorder/examples/fixedcolumns.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColReorder/examples/fixedcolumns.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColReorder/examples/fixedheader.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColReorder/examples/fixedheader.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColReorder/examples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColReorder/examples/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColReorder/examples/jqueryui.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColReorder/examples/jqueryui.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColReorder/examples/new_init.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColReorder/examples/new_init.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColReorder/examples/predefined.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColReorder/examples/predefined.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColReorder/examples/realtime.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColReorder/examples/realtime.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColReorder/examples/reset.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColReorder/examples/reset.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColReorder/examples/scrolling.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColReorder/examples/scrolling.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColReorder/examples/server_side.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColReorder/examples/server_side.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColReorder/examples/simple.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColReorder/examples/simple.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColReorder/examples/state_save.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColReorder/examples/state_save.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColVis/examples/button_order.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColVis/examples/button_order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColVis/examples/exclude_columns.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColVis/examples/exclude_columns.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColVis/examples/group_columns.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColVis/examples/group_columns.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColVis/examples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColVis/examples/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColVis/examples/jqueryui.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColVis/examples/jqueryui.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColVis/examples/mouseover.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColVis/examples/mouseover.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColVis/examples/new_init.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColVis/examples/new_init.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColVis/examples/restore.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColVis/examples/restore.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColVis/examples/simple.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColVis/examples/simple.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColVis/examples/text.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColVis/examples/text.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColVis/examples/title_callback.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColVis/examples/title_callback.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColVis/examples/two_tables.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColVis/examples/two_tables.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColVis/examples/two_tables_identical.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/ColVis/examples/two_tables_identical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedColumns/examples/bootstrap.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedColumns/examples/bootstrap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedColumns/examples/col_filter.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedColumns/examples/col_filter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedColumns/examples/colvis.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedColumns/examples/colvis.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedColumns/examples/css_size.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedColumns/examples/css_size.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedColumns/examples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedColumns/examples/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedColumns/examples/index_column.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedColumns/examples/index_column.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedColumns/examples/left_right_columns.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedColumns/examples/left_right_columns.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedColumns/examples/right_column.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedColumns/examples/right_column.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedColumns/examples/rowspan.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedColumns/examples/rowspan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedColumns/examples/server-side-processing.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedColumns/examples/server-side-processing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedColumns/examples/simple.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedColumns/examples/simple.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedColumns/examples/size_fixed.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedColumns/examples/size_fixed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedColumns/examples/size_fluid.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedColumns/examples/size_fluid.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedColumns/examples/two_columns.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedColumns/examples/two_columns.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedHeader/examples/header_footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedHeader/examples/header_footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedHeader/examples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedHeader/examples/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedHeader/examples/simple.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedHeader/examples/simple.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedHeader/examples/top_left_right.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedHeader/examples/top_left_right.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedHeader/examples/two_tables.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedHeader/examples/two_tables.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedHeader/examples/zIndexes.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/FixedHeader/examples/zIndexes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/KeyTable/examples/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/KeyTable/examples/events.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/KeyTable/examples/html.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/KeyTable/examples/html.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/KeyTable/examples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/KeyTable/examples/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/KeyTable/examples/scrolling.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/KeyTable/examples/scrolling.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/KeyTable/examples/simple.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/KeyTable/examples/simple.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/child-rows/column-control.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/child-rows/column-control.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/child-rows/custom-renderer.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/child-rows/custom-renderer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/child-rows/disable-child-rows.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/child-rows/disable-child-rows.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/child-rows/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/child-rows/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/child-rows/right-column.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/child-rows/right-column.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/child-rows/whole-row-control.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/child-rows/whole-row-control.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/display-control/auto.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/display-control/auto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/display-control/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/display-control/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/display-control/complexHeader.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/display-control/complexHeader.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/display-control/fixedHeader.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/display-control/fixedHeader.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/display-control/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/display-control/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/display-control/init-classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/display-control/init-classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/initialisation/ajax.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/initialisation/ajax.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/initialisation/className.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/initialisation/className.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/initialisation/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/initialisation/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/initialisation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/initialisation/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/initialisation/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/initialisation/new.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/initialisation/option.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/initialisation/option.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/styling/bootstrap.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/styling/bootstrap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/styling/compact.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/styling/compact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/styling/foundation.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/styling/foundation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/styling/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/styling/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/styling/scrolling.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Responsive/examples/styling/scrolling.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Scroller/css/dataTables.scroller.css" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Scroller/css/dataTables.scroller.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Scroller/css/dataTables.scroller.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Scroller/css/dataTables.scroller.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Scroller/examples/api_scrolling.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Scroller/examples/api_scrolling.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Scroller/examples/data/ssp.php" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Scroller/examples/data/ssp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Scroller/examples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Scroller/examples/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Scroller/examples/large_js_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Scroller/examples/large_js_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Scroller/examples/server-side_processing.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Scroller/examples/server-side_processing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Scroller/examples/simple.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Scroller/examples/simple.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Scroller/examples/state_saving.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/Scroller/examples/state_saving.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.css" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/examples/ajax.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/examples/ajax.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/examples/alter_buttons.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/examples/alter_buttons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/examples/bootstrap.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/examples/bootstrap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/examples/button_text.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/examples/button_text.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/examples/collection.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/examples/collection.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/examples/defaults.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/examples/defaults.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/examples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/examples/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/examples/jqueryui.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/examples/jqueryui.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/examples/multi_instance.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/examples/multi_instance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/examples/multiple_tables.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/examples/multiple_tables.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/examples/new_init.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/examples/new_init.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/examples/pdf_message.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/examples/pdf_message.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/examples/plug-in.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/examples/plug-in.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/examples/select_column.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/examples/select_column.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/examples/select_multi.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/examples/select_multi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/examples/select_os.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/examples/select_os.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/examples/select_single.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/examples/select_single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/examples/simple.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/examples/simple.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/examples/swf_path.html" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/examples/swf_path.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.js" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/font-awesome/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/font-awesome/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ionicons/css/ionicons.css" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ionicons/css/ionicons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ionicons/css/ionicons.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/ionicons/css/ionicons.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/select2/select2.full.js" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/select2/select2.full.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/select2/select2.full.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/select2/select2.full.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/select2/select2.js" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/select2/select2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/select2/select2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/plugins/select2/select2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -206,23 +225,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/heima_ssm_web/src/main/webapp/pages/user-show1.jsp">
+        <entry file="file://$PROJECT_DIR$/heima_ssm_web/src/main/java/com/itheima/ssm/controller/RoleController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="180" column="64" lean-forward="true" selection-start-line="180" selection-start-column="64" selection-end-line="180" selection-end-column="64" />
+            <state relative-caret-position="309">
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding>
-                <element signature="n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#8504#8510#0#HTML" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/heima_ssm_web/src/main/java/com/itheima/ssm/controller/UserController.java">
+        <entry file="file://$PROJECT_DIR$/heima_ssm_web/src/main/webapp/pages/role-list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+            <state relative-caret-position="165">
+              <caret line="145" column="64" selection-start-line="145" selection-start-column="56" selection-end-line="145" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/heima_ssm_service/src/main/java/com/itheima/ssm/service/IRoleService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/heima_ssm_dao/src/main/java/com/itheima/ssm/dao/IRoleDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/heima_ssm_service/src/main/java/com/itheima/ssm/service/impl/RoleServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -235,9 +286,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
-        <option value="Interface" />
         <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -246,6 +297,7 @@
       <find>pageHel</find>
       <find>${pageContext.request.contextPath}</find>
       <find>../</find>
+      <find>c:</find>
     </findStrings>
     <replaceStrings>
       <replace>${pageContext.request.contextPath}/</replace>
@@ -297,10 +349,13 @@
         <option value="$PROJECT_DIR$/heima_ssm_service/src/main/java/com/itheima/ssm/service/IUserService.java" />
         <option value="$PROJECT_DIR$/heima_ssm_service/src/main/java/com/itheima/ssm/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/heima_ssm_dao/src/main/java/com/itheima/ssm/dao/IUserDao.java" />
-        <option value="$PROJECT_DIR$/heima_ssm_dao/src/main/java/com/itheima/ssm/dao/IRoleDao.java" />
         <option value="$PROJECT_DIR$/heima_ssm_dao/src/main/java/com/itheima/ssm/dao/IPermissionDao.java" />
         <option value="$PROJECT_DIR$/heima_ssm_web/src/main/java/com/itheima/ssm/controller/UserController.java" />
         <option value="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/pages/user-show1.jsp" />
+        <option value="$PROJECT_DIR$/heima_ssm_service/src/main/java/com/itheima/ssm/service/IRoleService.java" />
+        <option value="$PROJECT_DIR$/heima_ssm_service/src/main/java/com/itheima/ssm/service/impl/RoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/heima_ssm_dao/src/main/java/com/itheima/ssm/dao/IRoleDao.java" />
+        <option value="$PROJECT_DIR$/heima_ssm_web/src/main/java/com/itheima/ssm/controller/RoleController.java" />
       </list>
     </option>
   </component>
@@ -318,29 +373,13 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="heima_ssm_web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="heima_ssm_web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="heima_ssm_web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="tomcat7" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-138" />
-    <option name="y" value="212" />
+    <option name="x" value="7" />
+    <option name="y" value="527" />
     <option name="width" value="1943" />
     <option name="height" value="707" />
   </component>
@@ -360,37 +399,65 @@
             <path>
               <item name="heima_ssm" type="b2602c69:ProjectViewProjectNode" />
               <item name="heima_ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="heima_ssm_web" type="462c0819:PsiDirectoryNode" />
+              <item name="heima_ssm_service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="heima_ssm" type="b2602c69:ProjectViewProjectNode" />
               <item name="heima_ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="heima_ssm_web" type="462c0819:PsiDirectoryNode" />
+              <item name="heima_ssm_service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="heima_ssm" type="b2602c69:ProjectViewProjectNode" />
               <item name="heima_ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="heima_ssm_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="heima_ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="heima_ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="heima_ssm_web" type="462c0819:PsiDirectoryNode" />
+              <item name="heima_ssm_service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="heima_ssm" type="b2602c69:ProjectViewProjectNode" />
               <item name="heima_ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="heima_ssm_web" type="462c0819:PsiDirectoryNode" />
+              <item name="heima_ssm_service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="heima_ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="heima_ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="heima_ssm_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="heima_ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="heima_ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="heima_ssm_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="heima_ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="heima_ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="heima_ssm_web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="heima_ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="heima_ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="heima_ssm_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="heima_ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="heima_ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="heima_ssm_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="heima_ssm" type="b2602c69:ProjectViewProjectNode" />
@@ -560,7 +627,7 @@
       <workItem from="1534339157412" duration="15745000" />
       <workItem from="1565361110893" duration="234000" />
       <workItem from="1565364482740" duration="8073000" />
-      <workItem from="1565403690308" duration="3495000" />
+      <workItem from="1565403690308" duration="4596000" />
     </task>
     <task id="LOCAL-00001" summary="day04查询所有用户操作已完成">
       <created>1565366536526</created>
@@ -590,11 +657,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565409247166</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="day04 用户详情页面展示已经完成， 第8个视频结束">
+      <created>1565411438047</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1565411438047</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62154000" />
+    <option name="totallyTimeSpent" value="63255000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -606,15 +680,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="185" y="214" width="1554" height="565" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Web" order="3" sideWeight="0.5136054" side_tool="true" weight="0.25718608" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.48639455" visible="true" weight="0.18983957" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.48639455" visible="true" weight="0.19034852" />
       <window_info id="Structure" order="6" weight="0.24962178" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
@@ -625,7 +698,7 @@
       <window_info anchor="bottom" id="Spring" order="5" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Run" order="7" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Debug" order="8" visible="true" weight="0.30023095" />
+      <window_info active="true" anchor="bottom" id="Debug" order="8" visible="true" weight="0.4348442" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32993197" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -642,7 +715,7 @@
       <window_info anchor="right" id="Commander" order="6" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.36308622" />
-      <window_info anchor="right" id="Maven" order="9" visible="true" weight="0.14572193" />
+      <window_info anchor="right" id="Maven" order="9" visible="true" weight="0.1461126" />
     </layout>
     <layout-to-restore>
       <window_info id="Capture Tool" order="0" />
@@ -696,50 +769,10 @@
     <MESSAGE value="day04用户添加操作已完成" />
     <MESSAGE value="day04 密码加密后登陆正确已经宛城" />
     <MESSAGE value="day04 用户详情效果展示已经完成， 未展示的需要修改前段" />
-    <option name="LAST_COMMIT_MESSAGE" value="day04 用户详情效果展示已经完成， 未展示的需要修改前段" />
+    <MESSAGE value="day04 用户详情页面展示已经完成， 第8个视频结束" />
+    <option name="LAST_COMMIT_MESSAGE" value="day04 用户详情页面展示已经完成， 第8个视频结束" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.1.RELEASE/spring-security-web-5.0.1.RELEASE-sources.jar!/org/springframework/security/web/context/AbstractSecurityWebApplicationInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="78" column="79" selection-start-line="78" selection-start-column="54" selection-end-line="78" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.2.RELEASE/spring-web-5.0.2.RELEASE-sources.jar!/org/springframework/web/WebApplicationInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="177" column="17" selection-start-line="177" selection-start-column="17" selection-end-line="177" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.1.RELEASE/spring-security-web-5.0.1.RELEASE-sources.jar!/org/springframework/security/web/DefaultSecurityFilterChain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="26" column="56" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="56" />
-          <folding>
-            <element signature="e#1711#1712#0" expanded="false" />
-            <element signature="e#1739#1740#0" expanded="false" />
-            <element signature="e#1776#1777#0" expanded="false" />
-            <element signature="e#1797#1798#0" expanded="false" />
-            <element signature="e#1852#1853#0" expanded="false" />
-            <element signature="e#1897#1898#0" expanded="false" />
-            <element signature="e#1937#1938#0" expanded="false" />
-            <element signature="e#1995#1996#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.1.RELEASE/spring-security-web-5.0.1.RELEASE-sources.jar!/org/springframework/security/web/SecurityFilterChain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="32" column="36" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.1.RELEASE/spring-security-web-5.0.1.RELEASE-sources.jar!/org/springframework/security/web/firewall/FirewalledRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
@@ -1107,16 +1140,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heima_ssm_dao/src/main/java/com/itheima/ssm/dao/IRoleDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/heima_ssm_dao/src/main/java/com/itheima/ssm/dao/IPermissionDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1151,6 +1174,53 @@
           <folding>
             <element signature="n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="e#8504#8510#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heima_ssm_dao/src/main/java/com/itheima/ssm/dao/IRoleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heima_ssm_service/src/main/java/com/itheima/ssm/service/impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heima_ssm_service/src/main/java/com/itheima/ssm/service/IRoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heima_ssm_web/src/main/webapp/pages/role-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="145" column="64" selection-start-line="145" selection-start-column="56" selection-end-line="145" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heima_ssm_web/src/main/java/com/itheima/ssm/controller/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
