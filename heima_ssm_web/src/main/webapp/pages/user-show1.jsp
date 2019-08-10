@@ -172,7 +172,7 @@
 
                                 <tbody>
                                 <c:forEach items="${user.roles}" var="role" varStatus="vs">
-                                <tr data-tt-id="${vs.index+1}" data-tt-parent-id="0">
+                                <tr data-tt-id="${vs.index+1}" data-tt-parent-id="">
                                     <td>${role.roleName}</td>
                                     <td>${role.roleDesc}</td>
                                 </tr>

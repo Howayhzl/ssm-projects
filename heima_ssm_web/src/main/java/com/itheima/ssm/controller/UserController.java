@@ -18,6 +18,14 @@ public class UserController {
     @Autowired
     private IUserService userService;
 
+
+    @RequestMapping("/addRoleToUser.do")
+    public String addRoleToUser(@RequestParam(name = "userId",required = true)String userId,
+                              @RequestParam(name = "ids",required = true)String[]roleIds) throws Exception {
+        userService.addRoleToUser(userId,roleIds);
+        return "redirect:findAll.do";
+    }
+
     @RequestMapping("/findAll.do")
     public ModelAndView findAll() throws Exception {
         ModelAndView mv = new ModelAndView();
@@ -45,15 +53,15 @@ public class UserController {
     }
 
     //查询用户以及用户可以添加的角色
-    @RequestMapping("findUserByIdAndAllRole")
+    @RequestMapping("findUserByIdAndAllRole.do")
     public ModelAndView findUserByIdAndAllRole(@RequestParam(name = "id",required = true)String userid) throws Exception {
       ModelAndView mv = new ModelAndView();
        //1.根据用户id查询用户
-        UserInfo userInfo = userService.findById(userid);
+        UserInfo user = userService.findById(userid);
         //2.根据用户id查询可以添加测角色
-       List<Role> otherRoles = userService.findOtherRoles(userid);
-       mv.addObject("user",userInfo);
-        mv.addObject("roleList",otherRoles);
+       List<Role> roleList= userService.findOtherRoles(userid);
+        mv.addObject("user", user);
+        mv.addObject("roleList", roleList);
         mv.setViewName("user-role-add");
         return mv;
     }

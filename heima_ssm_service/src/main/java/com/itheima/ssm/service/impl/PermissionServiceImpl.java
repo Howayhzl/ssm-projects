@@ -5,6 +5,7 @@ import com.itheima.ssm.domain.Permission;
 import com.itheima.ssm.domain.Product;
 import com.itheima.ssm.service.IPermissionService;
 import com.itheima.ssm.service.IProductService;
+import org.apache.ibatis.annotations.Select;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -27,6 +28,7 @@ public class PermissionServiceImpl implements IPermissionService {
     public void save(Permission permission) throws Exception {
         permissionDao.save(permission);
     }
+
 
 
 }
