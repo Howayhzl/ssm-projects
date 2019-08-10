@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b00fc83-5472-4d13-9378-aae34d3dbd0c" name="Default" comment="day04 用户详情页面展示已经完成， 第8个视频结束">
-      <change afterPath="$PROJECT_DIR$/heima_ssm_service/src/main/java/com/itheima/ssm/service/IRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima_ssm_service/src/main/java/com/itheima/ssm/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/java/com/itheima/ssm/controller/RoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/pages/role-list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/pages/role-add.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heima_ssm_dao/src/main/java/com/itheima/ssm/dao/IRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_dao/src/main/java/com/itheima/ssm/dao/IRoleDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heima_ssm_dao/target/classes/com/itheima/ssm/dao/IRoleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_dao/target/classes/com/itheima/ssm/dao/IRoleDao.class" afterDir="false" />
@@ -13,12 +10,13 @@
       <change beforePath="$PROJECT_DIR$/heima_ssm_dao/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_dao/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heima_ssm_domain/target/heima_ssm_domain-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_domain/target/heima_ssm_domain-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heima_ssm_domain/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_domain/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_service/src/main/java/com/itheima/ssm/service/IRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_service/src/main/java/com/itheima/ssm/service/IRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_service/src/main/java/com/itheima/ssm/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_service/src/main/java/com/itheima/ssm/service/impl/RoleServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heima_ssm_service/target/heima_ssm_service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_service/target/heima_ssm_service-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heima_ssm_service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_service/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heima_ssm_utils/target/heima_ssm_utils-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_utils/target/heima_ssm_utils-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heima_ssm_utils/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_utils/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima_ssm_web/src/main/java/com/itheima/ssm/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/java/com/itheima/ssm/controller/RoleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web.war" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/WEB-INF/lib/heima_ssm_dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/WEB-INF/lib/heima_ssm_dao-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/WEB-INF/lib/heima_ssm_domain-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/WEB-INF/lib/heima_ssm_domain-1.0-SNAPSHOT.jar" afterDir="false" />
@@ -224,23 +222,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/heima_ssm_web/src/main/java/com/itheima/ssm/controller/RoleController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="374">
+              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/heima_ssm_web/src/main/webapp/pages/role-list.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="145" column="64" selection-start-line="145" selection-start-column="56" selection-end-line="145" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -248,8 +237,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/heima_ssm_service/src/main/java/com/itheima/ssm/service/IRoleService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            <state>
+              <caret column="28" selection-start-column="28" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/heima_ssm_dao/src/main/java/com/itheima/ssm/dao/IRoleDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -258,13 +259,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/heima_ssm_dao/src/main/java/com/itheima/ssm/dao/IRoleDao.java">
+        <entry file="file://$PROJECT_DIR$/heima_ssm_domain/src/main/java/com/itheima/ssm/domain/Role.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -272,8 +270,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/heima_ssm_service/src/main/java/com/itheima/ssm/service/impl/RoleServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+            <state relative-caret-position="261">
+              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -353,9 +351,9 @@
         <option value="$PROJECT_DIR$/heima_ssm_web/src/main/java/com/itheima/ssm/controller/UserController.java" />
         <option value="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/pages/user-show1.jsp" />
         <option value="$PROJECT_DIR$/heima_ssm_service/src/main/java/com/itheima/ssm/service/IRoleService.java" />
+        <option value="$PROJECT_DIR$/heima_ssm_web/src/main/java/com/itheima/ssm/controller/RoleController.java" />
         <option value="$PROJECT_DIR$/heima_ssm_service/src/main/java/com/itheima/ssm/service/impl/RoleServiceImpl.java" />
         <option value="$PROJECT_DIR$/heima_ssm_dao/src/main/java/com/itheima/ssm/dao/IRoleDao.java" />
-        <option value="$PROJECT_DIR$/heima_ssm_web/src/main/java/com/itheima/ssm/controller/RoleController.java" />
       </list>
     </option>
   </component>
@@ -373,13 +371,38 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="heima_ssm" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="heima_ssm" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="heima_ssm_web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="heima_ssm_web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="heima_ssm_web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="tomcat7" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="7" />
-    <option name="y" value="527" />
+    <option name="x" value="-147" />
+    <option name="y" value="502" />
     <option name="width" value="1943" />
     <option name="height" value="707" />
   </component>
@@ -465,7 +488,7 @@
               <item name="heima_ssm_web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="heima_ssm" type="b2602c69:ProjectViewProjectNode" />
@@ -473,8 +496,8 @@
               <item name="heima_ssm_web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -627,7 +650,7 @@
       <workItem from="1534339157412" duration="15745000" />
       <workItem from="1565361110893" duration="234000" />
       <workItem from="1565364482740" duration="8073000" />
-      <workItem from="1565403690308" duration="4596000" />
+      <workItem from="1565403690308" duration="5253000" />
     </task>
     <task id="LOCAL-00001" summary="day04查询所有用户操作已完成">
       <created>1565366536526</created>
@@ -664,11 +687,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565411438047</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="day04 角色查询已经完成">
+      <created>1565412435356</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1565412435356</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63255000" />
+    <option name="totallyTimeSpent" value="63912000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -770,17 +800,10 @@
     <MESSAGE value="day04 密码加密后登陆正确已经宛城" />
     <MESSAGE value="day04 用户详情效果展示已经完成， 未展示的需要修改前段" />
     <MESSAGE value="day04 用户详情页面展示已经完成， 第8个视频结束" />
-    <option name="LAST_COMMIT_MESSAGE" value="day04 用户详情页面展示已经完成， 第8个视频结束" />
+    <MESSAGE value="day04 角色查询已经完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="day04 角色查询已经完成" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.1.RELEASE/spring-security-web-5.0.1.RELEASE-sources.jar!/org/springframework/security/web/firewall/FirewalledRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.0.1.RELEASE/spring-security-config-5.0.1.RELEASE-sources.jar!/org/springframework/security/config/http/SecurityFilters.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
@@ -1112,13 +1135,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heima_ssm_domain/src/main/java/com/itheima/ssm/domain/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/heima_ssm_service/src/main/java/com/itheima/ssm/service/IUserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1178,20 +1194,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heima_ssm_dao/src/main/java/com/itheima/ssm/dao/IRoleDao.java">
+    <entry file="file://$PROJECT_DIR$/heima_ssm_web/src/main/webapp/pages/role-list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+        <state relative-caret-position="165">
+          <caret line="145" column="64" selection-start-line="145" selection-start-column="56" selection-end-line="145" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heima_ssm_web/src/main/webapp/pages/role-add.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heima_ssm_service/src/main/java/com/itheima/ssm/service/impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heima_ssm_service/src/main/java/com/itheima/ssm/service/impl/RoleServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/heima_ssm_domain/src/main/java/com/itheima/ssm/domain/Role.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        <state relative-caret-position="119">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heima_ssm_web/src/main/java/com/itheima/ssm/controller/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1200,25 +1233,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/heima_ssm_service/src/main/java/com/itheima/ssm/service/IRoleService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heima_ssm_web/src/main/webapp/pages/role-list.jsp">
+    <entry file="file://$PROJECT_DIR$/heima_ssm_dao/src/main/java/com/itheima/ssm/dao/IRoleDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="145" column="64" selection-start-line="145" selection-start-column="56" selection-end-line="145" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heima_ssm_web/src/main/java/com/itheima/ssm/controller/RoleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="196">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

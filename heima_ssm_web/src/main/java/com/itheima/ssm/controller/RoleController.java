@@ -18,6 +18,12 @@ public class RoleController {
     @Autowired
     private IRoleService roleService;
 
+    @RequestMapping("/save.do")
+    public String save(Role role) throws Exception {
+        roleService.save(role);
+        return "redirect:findAll.do";
+    }
+
     @RequestMapping("/findAll.do")
     public ModelAndView findAll() throws Exception {
         ModelAndView mv = new ModelAndView();
