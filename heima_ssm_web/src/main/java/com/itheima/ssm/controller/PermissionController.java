@@ -1,6 +1,7 @@
 package com.itheima.ssm.controller;
 
 import com.itheima.ssm.domain.Permission;
+import com.itheima.ssm.domain.UserInfo;
 import com.itheima.ssm.service.IPermissionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -15,6 +16,14 @@ public class PermissionController {
 
     @Autowired
     private IPermissionService permissionService;
+
+
+    //权限添加
+    @RequestMapping("/save.do")
+    public String save(Permission permission)throws Exception{
+        permissionService.save(permission);
+        return "redirect:findAll.do";
+    }
 
     @RequestMapping("/findAll.do")
     public ModelAndView findAll() throws Exception {
