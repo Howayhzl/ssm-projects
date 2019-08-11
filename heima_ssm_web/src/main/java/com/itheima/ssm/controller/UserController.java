@@ -4,6 +4,7 @@ import com.itheima.ssm.domain.Role;
 import com.itheima.ssm.domain.UserInfo;
 import com.itheima.ssm.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -27,6 +28,7 @@ public class UserController {
     }
 
     @RequestMapping("/findAll.do")
+    @PreAuthorize("hasRole('ROLE_ADMIN')")
     public ModelAndView findAll() throws Exception {
         ModelAndView mv = new ModelAndView();
        List<UserInfo> userList =  userService.findAll();
@@ -37,6 +39,7 @@ public class UserController {
 
     //用户添加
     @RequestMapping("/save.do")
+    @PreAuthorize("authentication.principal.username =='tom'")
     public String save(UserInfo userInfo)throws Exception{
         userService.save(userInfo);
         return "redirect:findAll.do";
