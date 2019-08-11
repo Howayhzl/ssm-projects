@@ -5,14 +5,21 @@ import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.web.bind.annotation.RequestMapping;
 
+import javax.servlet.http.HttpServletRequest;
+import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
 import java.util.Date;
 
 @Component
 @Aspect
 public class LogAop {
+
+    @Autowired
+    private HttpServletRequest request;
 
     private Date visitTime; //开始时间
     private Class clazz; //访问的类
@@ -43,6 +50,26 @@ public class LogAop {
     @After("execution(* com.itheima.ssm.controller.*.*(..))")
     public void doAfter(JoinPoint jp){
         long time = new Date().getTime()-visitTime.getTime(); //获取访问的市场
+
+        String url = "";
+        //获取url
+        if (clazz!=null&&method!=null&&clazz==LogAop.class){
+            //1.获取类上面的@RequestMapping("/role")
+            RequestMapping classAnnotation = (RequestMapping) clazz.getAnnotation(RequestMapping.class);
+            if (classAnnotation!=null){
+                String[] classValue = classAnnotation.value();
+
+                //2.获取方法上的 @RequestMapping("/findRoleByIdAndAllPermission.do")
+                RequestMapping methodAnnotation = method.getAnnotation(RequestMapping.class);
+                if (methodAnnotation!=null){
+                    String[] methodValue = methodAnnotation.value();
+                    url = classValue[0]+methodValue[0];
+                }
+            }
+        }
+
+        //获取访问的ip地址
+        //通过request对象访问，在web.xml文件中配置一个listener RequestContextListener 可以直接注入
 
     }
 }
