@@ -1,25 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b00fc83-5472-4d13-9378-aae34d3dbd0c" name="Default" comment="day05  获取当前登录的用户  第14个视频结束">
-      <change afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/pages/syslog-list.jsp" afterDir="false" />
+    <list default="true" id="7b00fc83-5472-4d13-9378-aae34d3dbd0c" name="Default" comment="day05 查询日志代码已经实现  第14个视频结束">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/classes/com/itheima/ssm/controller/OrdersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/classes/com/itheima/ssm/controller/OrdersController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web.war" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/WEB-INF/classes/com/itheima/ssm/controller/OrdersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/WEB-INF/classes/com/itheima/ssm/controller/OrdersController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/WEB-INF/lib/heima_ssm_dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/WEB-INF/lib/heima_ssm_dao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/WEB-INF/lib/heima_ssm_domain-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/WEB-INF/lib/heima_ssm_domain-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/WEB-INF/lib/heima_ssm_service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/WEB-INF/lib/heima_ssm_service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/WEB-INF/lib/heima_ssm_utils-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/WEB-INF/lib/heima_ssm_utils-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/pages/aside.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/pages/header.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/pages/main.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/pages/orders-list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/pages/orders-page-list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/heima_ssm_web/pages/orders-show.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -77,7 +60,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/heima_ssm_web/src/main/webapp/pages/syslog-list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2142" />
+            <state relative-caret-position="-1989" />
           </provider>
         </entry>
       </file>
@@ -225,49 +208,6 @@
               <item name="heima_ssm" type="b2602c69:ProjectViewProjectNode" />
               <item name="heima_ssm" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="heima_ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="heima_ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="heima_ssm_web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="heima_ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="heima_ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="heima_ssm_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="heima_ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="heima_ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="heima_ssm_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="heima_ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="heima_ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="heima_ssm_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="heima_ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="heima_ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="heima_ssm_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="heima_ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="heima_ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="heima_ssm_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -285,7 +225,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -422,7 +362,7 @@
       <workItem from="1565403690308" duration="7835000" />
       <workItem from="1565426828141" duration="16243000" />
       <workItem from="1565458527169" duration="745000" />
-      <workItem from="1565493675936" duration="10939000" />
+      <workItem from="1565493675936" duration="12605000" />
     </task>
     <task id="LOCAL-00001" summary="day04查询所有用户操作已完成">
       <created>1565366536526</created>
@@ -557,11 +497,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565506011351</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="day05 查询日志代码已经实现  第14个视频结束">
+      <created>1565506377973</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1565506377973</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94421000" />
+    <option name="totallyTimeSpent" value="96087000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -573,15 +520,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Web" order="3" sideWeight="0.5136054" side_tool="true" weight="0.25718608" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.48639455" visible="true" weight="0.17493297" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.48639455" visible="true" weight="0.17493297" />
       <window_info id="Structure" order="6" weight="0.24962178" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.102546915" side_tool="true" visible="true" weight="0.51983005" />
@@ -592,7 +538,7 @@
       <window_info anchor="bottom" id="Spring" order="5" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Run" order="7" sideWeight="0.900134" weight="0.41501418" />
-      <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.89745307" visible="true" weight="0.51983005" />
+      <window_info active="true" anchor="bottom" id="Debug" order="8" sideWeight="0.89745307" visible="true" weight="0.51983005" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32993197" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -718,7 +664,8 @@
     <MESSAGE value="day05  String ip = request.getRemoteAddr(); 获取uri  第13个视频结束" />
     <MESSAGE value="day05  获取当前登录的用户  第14个视频结束" />
     <MESSAGE value="day05  AOP日志测试成功  第14个视频结束" />
-    <option name="LAST_COMMIT_MESSAGE" value="day05  AOP日志测试成功  第14个视频结束" />
+    <MESSAGE value="day05 查询日志代码已经实现  第14个视频结束" />
+    <option name="LAST_COMMIT_MESSAGE" value="day05 查询日志代码已经实现  第14个视频结束" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/heima_ssm_web/src/main/webapp/pages/permission-add.jsp">
@@ -1124,7 +1071,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/heima_ssm_web/src/main/webapp/pages/syslog-list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2142" />
+        <state relative-caret-position="-1989" />
       </provider>
     </entry>
   </component>
