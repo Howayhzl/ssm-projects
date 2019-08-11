@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b00fc83-5472-4d13-9378-aae34d3dbd0c" name="Default" comment="day04 用户详情页面展示已经完成， 第8个视频结束">
-      <change afterPath="$PROJECT_DIR$/heima_ssm_domain/src/main/java/com/itheima/ssm/domain/SysLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heima_ssm_web/src/main/java/com/itheima/ssm/controller/LogAop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/classes/com/itheima/ssm/controller/OrdersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/classes/com/itheima/ssm/controller/OrdersController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/classes/com/itheima/ssm/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/classes/com/itheima/ssm/controller/ProductController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heima_ssm_web/target/classes/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/heima_ssm_web/target/classes/spring-security.xml" afterDir="false" />
@@ -98,8 +95,29 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/heima_ssm_web/src/main/java/com/itheima/ssm/controller/LogAop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+            <state relative-caret-position="367">
+              <caret line="72" selection-start-line="72" selection-end-line="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/heima_ssm_web/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="17" column="86" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/heima_ssm_web/src/main/java/com/itheima/ssm/controller/RoleController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="25" column="55" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -185,7 +203,6 @@
         <option value="$PROJECT_DIR$/heima_ssm_service/src/main/java/com/itheima/ssm/service/impl/RoleServiceImpl.java" />
         <option value="$PROJECT_DIR$/heima_ssm_dao/src/main/java/com/itheima/ssm/dao/IRoleDao.java" />
         <option value="$PROJECT_DIR$/heima_ssm_web/src/main/java/com/itheima/ssm/controller/ProductController.java" />
-        <option value="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/403.jsp" />
         <option value="$PROJECT_DIR$/heima_ssm_web/src/main/java/com/itheima/ssm/controller/OrdersController.java" />
         <option value="$PROJECT_DIR$/heima_ssm_web/src/main/java/com/itheima/ssm/controller/UserController.java" />
@@ -194,6 +211,7 @@
         <option value="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/pages/aside.jsp" />
         <option value="$PROJECT_DIR$/heima_ssm_web/src/main/resources/spring-security.xml" />
         <option value="$PROJECT_DIR$/heima_ssm_domain/src/main/java/com/itheima/ssm/domain/SysLog.java" />
+        <option value="$PROJECT_DIR$/heima_ssm_web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/heima_ssm_web/src/main/java/com/itheima/ssm/controller/LogAop.java" />
       </list>
     </option>
@@ -232,11 +250,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="47" />
-    <option name="y" value="287" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-78" />
+    <option name="y" value="200" />
     <option name="width" value="1943" />
-    <option name="height" value="680" />
+    <option name="height" value="708" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -250,41 +268,6 @@
             <path>
               <item name="heima_ssm" type="b2602c69:ProjectViewProjectNode" />
               <item name="heima_ssm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="heima_ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="heima_ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="heima_ssm_web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="heima_ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="heima_ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="heima_ssm_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="heima_ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="heima_ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="heima_ssm_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="heima_ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="heima_ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="heima_ssm_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="heima_ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="heima_ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="heima_ssm_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -440,7 +423,7 @@
       <workItem from="1565403690308" duration="7835000" />
       <workItem from="1565426828141" duration="16243000" />
       <workItem from="1565458527169" duration="745000" />
-      <workItem from="1565493675936" duration="6917000" />
+      <workItem from="1565493675936" duration="8197000" />
     </task>
     <task id="LOCAL-00001" summary="day04查询所有用户操作已完成">
       <created>1565366536526</created>
@@ -540,11 +523,25 @@
       <option name="project" value="LOCAL" />
       <updated>1565501026798</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="day05 AOP前置通知，获取对应的类， 第12个视频结束">
+      <created>1565502528783</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1565502528783</updated>
+    </task>
+    <task id="LOCAL-00016" summary="day05 后置通知，获取uri， 第14个视频结束">
+      <created>1565503499009</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1565503499009</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90399000" />
+    <option name="totallyTimeSpent" value="91679000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -556,7 +553,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="678" y="257" width="1554" height="544" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Capture Tool" order="0" />
@@ -564,10 +561,10 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Web" order="3" sideWeight="0.5136054" side_tool="true" weight="0.25718608" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.48639455" visible="true" weight="0.17446524" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.48639455" visible="true" weight="0.17493297" />
       <window_info id="Structure" order="6" weight="0.24962178" />
       <window_info id="Image Layers" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.10026738" side_tool="true" visible="true" weight="0.32281554" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.09986595" side_tool="true" visible="true" weight="0.18838526" />
       <window_info anchor="bottom" id="Messages" order="1" weight="0.32993197" />
       <window_info anchor="bottom" id="Java Enterprise" order="2" />
       <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.9095174" weight="0.3512748" />
@@ -575,7 +572,7 @@
       <window_info anchor="bottom" id="Spring" order="5" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Run" order="7" sideWeight="0.902815" weight="0.4716714" />
-      <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.89973265" visible="true" weight="0.32281554" />
+      <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.900134" visible="true" weight="0.18838526" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32993197" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -592,7 +589,7 @@
       <window_info anchor="right" id="Commander" order="6" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.36308622" />
-      <window_info anchor="right" id="Maven" order="9" visible="true" weight="0.14104278" />
+      <window_info anchor="right" id="Maven" order="9" visible="true" weight="0.14142092" />
     </layout>
     <layout-to-restore>
       <window_info id="Capture Tool" order="0" />
@@ -696,7 +693,9 @@
     <MESSAGE value="day04 @Secured注解标注的方法进行权限控制的支持， 第8个视频结束" />
     <MESSAGE value="day05 方法级权限控制_基于表达式操作， 第9个视频结束" />
     <MESSAGE value="day05 页面端权限控制介绍 第10个视频结束" />
-    <option name="LAST_COMMIT_MESSAGE" value="day05 页面端权限控制介绍 第10个视频结束" />
+    <MESSAGE value="day05 AOP前置通知，获取对应的类， 第12个视频结束" />
+    <MESSAGE value="day05 后置通知，获取uri， 第14个视频结束" />
+    <option name="LAST_COMMIT_MESSAGE" value="day05 后置通知，获取uri， 第14个视频结束" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/heima_ssm_web/src/main/webapp/pages/user-add.jsp">
@@ -928,16 +927,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heima_ssm_web/src/main/java/com/itheima/ssm/controller/RoleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/heima_ssm_service/src/main/java/com/itheima/ssm/service/IRoleService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
@@ -972,13 +961,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
           <caret line="72" selection-start-line="72" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heima_ssm_web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="58" column="20" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1044,6 +1026,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/heima_ssm_web/src/main/java/com/itheima/ssm/controller/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="25" column="55" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heima_ssm_web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="17" column="86" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/heima_ssm_domain/src/main/java/com/itheima/ssm/domain/SysLog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1086,8 +1085,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/heima_ssm_web/src/main/java/com/itheima/ssm/controller/LogAop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+        <state relative-caret-position="367">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

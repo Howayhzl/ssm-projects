@@ -70,6 +70,6 @@ public class LogAop {
 
         //获取访问的ip地址
         //通过request对象访问，在web.xml文件中配置一个listener RequestContextListener 可以直接注入
-
+        String ip = request.getRemoteAddr();
     }
 }
