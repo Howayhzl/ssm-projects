@@ -6,6 +6,9 @@ import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.context.SecurityContext;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.core.userdetails.User;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -71,5 +74,10 @@ public class LogAop {
         //获取访问的ip地址
         //通过request对象访问，在web.xml文件中配置一个listener RequestContextListener 可以直接注入
         String ip = request.getRemoteAddr();
+
+        //获取当前登录的用户
+        SecurityContext context = SecurityContextHolder.getContext();
+        User user = (User) context.getAuthentication().getPrincipal();
+        String username = user.getUsername();
     }
 }
