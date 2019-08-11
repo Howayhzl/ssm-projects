@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -17,8 +17,6 @@
 	content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
 	name="viewport">
 
-<link rel=“stylesheet”
-	href="${pageContext.request.contextPath}/plugins/bootstrap-datetimepicker/bootstrap-datetimepicker.min.css">
 <link rel="stylesheet"
 	href="${pageContext.request.contextPath}/plugins/bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet"
@@ -83,158 +81,147 @@
 			<!-- 内容头部 -->
 			<section class="content-header">
 			<h1>
-				订单管理 <small>全部订单</small>
+				日志管理 <small>全部日志</small>
 			</h1>
 			<ol class="breadcrumb">
-				<li><a href="all-admin-index.html"><i
+				<li><a href="${pageContext.request.contextPath}/index.jsp"><i
 						class="fa fa-dashboard"></i> 首页</a></li>
-				<li><a href="all-order-manage-list.html">订单管理</a></li>
-				<li class="active">订单详情</li>
+				<li><a
+					href="${pageContext.request.contextPath}/sysLog/findAll.do">日志管理</a></li>
+
+				<li class="active">全部日志</li>
 			</ol>
 			</section>
 			<!-- 内容头部 /-->
 
 			<!-- 正文区域 -->
-			<section class="content"> <!--订单信息-->
-			<div class="panel panel-default">
-				<div class="panel-heading">订单信息</div>
-				<div class="row data-type">
+			<section class="content"> <!-- .box-body -->
+			<div class="box box-primary">
+				<div class="box-header with-border">
+					<h3 class="box-title">列表</h3>
+				</div>
 
-					<div class="col-md-2 title">订单编号</div>
-					<div class="col-md-4 data">
-						<input type="text" class="form-control" placeholder="订单编号"
-							value="${orders.orderNum }" readonly="readonly">
-					</div>
+				<div class="box-body">
 
-					<div class="col-md-2 title">下单时间</div>
-					<div class="col-md-4 data">
-						<div class="input-group date">
-							<div class="input-group-addon">
-								<i class="fa fa-calendar"></i>
+					<!-- 数据表格 -->
+					<div class="table-box">
+
+						<!--工具栏-->
+						<div class="pull-left">
+							<div class="form-group form-inline">
+								<div class="btn-group">
+									<button type="button" class="btn btn-default" title="刷新"
+										onclick="window.location.reload();">
+										<i class="fa fa-refresh"></i> 刷新
+									</button>
+								</div>
 							</div>
-							<input type="text" class="form-control pull-right"
-								id="datepicker-a3" readonly="readonly"
-								value="${orders.orderTimeStr}">
+						</div>
+						<div class="box-tools pull-right">
+							<div class="has-feedback">
+								<input type="text" class="form-control input-sm"
+									placeholder="搜索"> <span
+									class="glyphicon glyphicon-search form-control-feedback"></span>
+							</div>
+						</div>
+						<!--工具栏/-->
+
+						<!--数据列表-->
+						<table id="dataList"
+							class="table table-bordered table-striped table-hover dataTable">
+							<thead>
+								<tr>
+									<th class="" style="padding-right: 0px"><input id="selall"
+										type="checkbox" class="icheckbox_square-blue"></th>
+									<th class="sorting_asc">ID</th>
+									<th class="sorting">访问时间</th>
+									<th class="sorting">访问用户</th>
+									<th class="sorting">访问IP</th>
+									<th class="sorting">资源URL</th>
+									<th class="sorting">执行时间</th>
+									<th class="sorting">访问方法</th>
+								</tr>
+							</thead>
+							<tbody>
+								<c:forEach items="${sysLogs}" var="syslog">
+									<tr>
+										<td><input name="ids" type="checkbox"></td>
+										<td>${syslog.id}</td>
+										<td>${syslog.visitTimeStr }</td>
+										<td>${syslog.username }</td>
+										<td>${syslog.ip }</td>
+										<td>${syslog.url}</td>
+										<td>${syslog.executionTime}毫秒</td>
+										<td>${syslog.method}</td>										
+									</tr>
+								</c:forEach>
+							</tbody>
+
+						</table>
+						<!--数据列表/-->
+
+						<!--工具栏-->
+						<div class="pull-left">
+							<div class="form-group form-inline">
+								<div class="btn-group">
+									<button type="button" class="btn btn-default" title="刷新"
+										onclick="window.location.reload();">
+										<i class="fa fa-refresh"></i> 刷新
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="box-tools pull-right">
+							<div class="has-feedback">
+								<input type="text" class="form-control input-sm"
+									placeholder="搜索"> <span
+									class="glyphicon glyphicon-search form-control-feedback"></span>
+							</div>
+						</div>
+						<!--工具栏/-->
+
+
+					</div>
+					<!-- 数据表格 /-->
+
+				</div>
+				<!-- /.box-body -->
+
+				<!-- .box-footer-->
+				<div class="box-footer">
+					<div class="pull-left">
+						<div class="form-group form-inline">
+							总共2 页，共14 条数据。 每页 <select class="form-control">
+								<option>10</option>
+								<option>15</option>
+								<option>20</option>
+								<option>50</option>
+								<option>80</option>
+							</select> 条
 						</div>
 					</div>
-					<div class="col-md-2 title">路线名称</div>
-					<div class="col-md-4 data">
-						<input type="text" class="form-control" placeholder="路线名称"
-							value="${orders.product.productName }" readonly="readonly">
-					</div>
 
-					<div class="col-md-2 title">出发城市</div>
-					<div class="col-md-4 data">
-						<input type="text" class="form-control" placeholder="出发城市"
-							value="${orders.product.cityName }" readonly="readonly">
-					</div>
-
-					<div class="col-md-2 title">出发时间</div>
-					<div class="col-md-4 data">
-						<div class="input-group date">
-							<div class="input-group-addon">
-								<i class="fa fa-calendar"></i>
-							</div>
-							<input type="text" class="form-control pull-right"
-								id="datepicker-a6" value="${orders.product.departureTimeStr}"
-								readonly="readonly">
-						</div>
-					</div>
-					<div class="col-md-2 title">出游人数</div>
-					<div class="col-md-4 data">
-						<input type="text" class="form-control" placeholder="出游人数"
-							value="${orders.peopleCount}" readonly="readonly">
-					</div>
-
-					<div class="col-md-2 title rowHeight2x">其他信息</div>
-					<div class="col-md-10 data rowHeight2x">
-						<textarea class="form-control" rows="3" placeholder="其他信息">
-							${orders.orderDesc }
-						</textarea>
+					<div class="box-tools pull-right">
+						<ul class="pagination">
+							<li><a href="#" aria-label="Previous">首页</a></li>
+							<li><a href="#">上一页</a></li>
+							<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">5</a></li>
+							<li><a href="#">下一页</a></li>
+							<li><a href="#" aria-label="Next">尾页</a></li>
+						</ul>
 					</div>
 
 				</div>
+				<!-- /.box-footer-->
+
 			</div>
-			<!--订单信息/--> <!--游客信息-->
-			<div class="panel panel-default">
-				<div class="panel-heading">游客信息</div>
-				<!--数据列表-->
-				<table id="dataList"
-					class="table table-bordered table-striped table-hover dataTable">
-					<thead>
-						<tr>
-							<th class="">人群</th>
-							<th class="">姓名</th>
-							<th class="">性别</th>
-							<th class="">手机号码</th>
-							<th class="">证件类型</th>
-							<th class="">证件号码</th>
-						</tr>
-					</thead>
-					<tbody>
-						<c:forEach var="traveller" items="${orders.travellers}">
 
-							<tr>
-								<td>${traveller.travellerTypeStr}</td>
-								<td><input type="text" size="10" value="${traveller.name }"
-									readonly="readonly"></td>
-								<td><input type="text" size="10" value="${traveller.sex }"
-									readonly="readonly"></td>
-								<td><input type="text" size="20"
-									value="${traveller.phoneNum }" readonly="readonly"></td>
-								<td><input type="text" size="15"
-									value="${traveller.credentialsTypeStr}" readonly="readonly"></td>
-								<td><input type="text" size="28"
-									value="${traveller.credentialsNum }" readonly="readonly"></td>
-							</tr>
-						</c:forEach>
-
-
-					</tbody>
-				</table>
-				<!--数据列表/-->
-			</div>
-			<!--游客信息/--> <!--联系人信息-->
-			<div class="panel panel-default">
-				<div class="panel-heading">联系人信息</div>
-				<div class="row data-type">
-
-					<div class="col-md-2 title">会员</div>
-					<div class="col-md-4 data text">${orders.member.nickname }</div>
-
-					<div class="col-md-2 title">联系人</div>
-					<div class="col-md-4 data text">${orders.member.name}</div>
-
-					<div class="col-md-2 title">手机号</div>
-					<div class="col-md-4 data text">${orders.member.phoneNum}</div>
-
-					<div class="col-md-2 title">邮箱</div>
-					<div class="col-md-4 data text">${orders.member.email}</div>
-
-				</div>
-			</div>
-			<!--联系人信息/--> <!--费用信息--> <c:if test="${orders.orderStatus==1}">
-				<div class="panel panel-default">
-					<div class="panel-heading">费用信息</div>
-					<div class="row data-type">
-
-						<div class="col-md-2 title">支付方式</div>
-						<div class="col-md-4 data text">在线支付-${orders.payTypeStr}</div>
-
-						<div class="col-md-2 title">金额</div>
-						<div class="col-md-4 data text">￥${orders.product.productPrice}</div>
-
-					</div>
-				</div>
-			</c:if> <!--费用信息/--> <!--工具栏-->
-			<div class="box-tools text-center">
-
-				<button type="button" class="btn bg-default"
-					onclick="history.back(-1);">返回</button>
-			</div>
-			<!--工具栏/--> </section>
+			</section>
 			<!-- 正文区域 /-->
-
 
 		</div>
 		<!-- 内容区域 /-->
@@ -380,6 +367,5 @@
 		});
 	</script>
 </body>
-
 
 </html>
