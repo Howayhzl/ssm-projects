@@ -3,5 +3,6 @@ G:\StudyProjects\0809SSM\heima_ssm\heima_ssm_dao\src\main\java\com\itheima\ssm\d
 G:\StudyProjects\0809SSM\heima_ssm\heima_ssm_dao\src\main\java\com\itheima\ssm\dao\IOrdersDao.java
 G:\StudyProjects\0809SSM\heima_ssm\heima_ssm_dao\src\main\java\com\itheima\ssm\dao\IPermissionDao.java
 G:\StudyProjects\0809SSM\heima_ssm\heima_ssm_dao\src\main\java\com\itheima\ssm\dao\IUserDao.java
+G:\StudyProjects\0809SSM\heima_ssm\heima_ssm_dao\src\main\java\com\itheima\ssm\dao\ISysLogDao.java
 G:\StudyProjects\0809SSM\heima_ssm\heima_ssm_dao\src\main\java\com\itheima\ssm\dao\IMemberDao.java
 G:\StudyProjects\0809SSM\heima_ssm\heima_ssm_dao\src\main\java\com\itheima\ssm\dao\IProductDao.java
